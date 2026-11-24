@@ -1,2 +1,2 @@
-SELECT FIRST_NAME, TO_CHAR(HIRE_DATE, 'fmDD month YYYY', 'NLS_DATE_LANGUAGE = CATALAN')
-FROM EMPLOYEES;
+SELECT first_name as nom, to_char(hire_date,'DD Month YYYY') as "Data contractació"
+FROM Employees;
